@@ -1,0 +1,8 @@
+version: '3.3'
+
+services:
+
+  nginx-hello:
+    build: ""
+    ports:
+      - '5001:80'
